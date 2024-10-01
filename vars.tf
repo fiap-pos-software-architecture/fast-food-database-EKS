@@ -1,0 +1,31 @@
+variable "regionDefault" {
+  default = "us-east-1"
+}
+
+variable "projectName" {
+  default = "fast-food-project"
+}
+
+variable "labRole" {
+  default = "arn:aws:iam::609493118975:role/LabRole" # do meu user
+}
+
+variable "accessConfig" {
+  default = "API_AND_CONFIG_MAP"
+}
+
+variable "nodeGroup" {
+  default = "fast-food-node"
+}
+
+variable "instanceType" {
+  default = "t3.medium"
+}
+
+variable "principalArn" {
+  default = "arn:aws:iam::609493118975:role/voclabs"
+}
+
+variable "policyArn" {
+  default = "arn:aws:eks::aws:cluster-access-policy/AmazonEKSClusterAdminPolicy"
+}

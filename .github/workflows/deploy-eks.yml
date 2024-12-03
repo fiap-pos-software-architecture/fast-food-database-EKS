@@ -30,5 +30,6 @@ jobs:
 
       - name: Kube Apply
         run: |
-          kubectl apply -f kubernetes/Database
+          kubectl apply -f kubernetes/MySQL
+          kubectl apply -f kubernetes/MongoDB
           kubectl get nodes

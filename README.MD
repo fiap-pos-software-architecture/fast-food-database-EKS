@@ -10,15 +10,6 @@ Contém os arquivos de automação CI/CD utilizando GitHub Actions:
 - **deploy-eks.yml**: Define o pipeline de deploy da infraestrutura no EKS.
 - **terraform.yml**: Executa a configuração da infraestrutura utilizando Terraform.
 
-### `kubernetes/Database/`
-Contém os arquivos YAML para provisionamento e gerenciamento do banco de dados MySQL no Kubernetes:
-
-- **mysql-configmap.yaml**: Configuração de ambiente do MySQL, como variáveis de ambiente.
-- **mysql-deployment.yaml**: Define o deployment do MySQL no Kubernetes.
-- **mysql-pv.yaml**: Configuração de volumes persistentes (PV) para armazenamento de dados do MySQL.
-- **mysql-pvc.yaml**: Reclamações de volumes persistentes (PVC) para garantir armazenamento durável.
-- **mysql-service.yaml**: Serviço Kubernetes para expor o MySQL dentro do cluster.
-
 ### Arquivos de Terraform
 Os arquivos abaixo definem a infraestrutura para provisionamento de um cluster AWS EKS:
 

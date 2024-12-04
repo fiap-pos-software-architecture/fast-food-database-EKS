@@ -7,7 +7,7 @@ on:
 
 env:
   REGION_DEFAULT: "us-east-1"
-  CLUSTER_NAME: "fast-food-project"
+  CLUSTER_NAME: "fast-food-project2"
 
 jobs:
   deploy:

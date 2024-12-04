@@ -33,6 +33,7 @@ jobs:
         run: |
           kubectl config current-context
           aws eks update-kubeconfig --name fast-food-project2 --region us-east-1
+          kubectl get nodes
           kubectl config set-context --current --namespace=default
           kubectl apply -f kubernetes/MySQL --validate=false
           kubectl apply -f kubernetes/MongoDB --validate=false

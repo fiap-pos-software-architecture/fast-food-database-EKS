@@ -3,11 +3,11 @@ variable "regionDefault" {
 }
 
 variable "projectName" {
-  default = "fast-food-project"
+  default = "fast-food-project2"
 }
 
 variable "labRole" {
-  default = "arn:aws:iam::750400446769:role/LabRole" # do meu user
+  default = "arn:aws:iam::211125428015:role/LabRole" # do meu user
 }
 
 variable "accessConfig" {
